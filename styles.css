@@ -1,4 +1,22 @@
-@import url(/fonts/fonts.css);
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/Raleway-Regular.ttf) format("ttf"),
+  url(/fonts/Raleway-Regular.woff) format("woff"),
+  url(/fonts/Raleway-Regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts/Raleway-Bold.ttf) format("ttf"),
+  url(/fonts/Raleway-Bold.woff) format("woff"),
+  url(/fonts/Raleway-Bold.woff2) format("woff2");
+}
 
 *{
   margin: 0;
@@ -24,17 +42,14 @@
   font-weight: 400;
 }
 
-.header__logo {
-  width: 130px;
-  height: 105px;
-}
+/* *____* */
 
 .header__links {
   display: flex;
   justify-content: space-between;
   padding-top: 43px;
   padding-left: 50px;
-  width: 420px;
+  width: 360px;
   height: 24px;
 }
 
@@ -50,10 +65,9 @@
   color: black;
   font-family: 'Raleway';
   font-weight: 400;
-  margin-right: 5px;
 }
 
-.header__link_active {
+.header__link_decoration_off {
   text-decoration: none;
 }
 
@@ -80,9 +94,7 @@
   margin: 0 auto 180px;
   display: flex;
   flex-direction: column;
-  background-image: url(/images/cover.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(./images/lotus-flower.jpg);
 }
 
 .jambotron__title {
@@ -308,8 +320,6 @@
 }
 
 .footer__icon {
-  width: 48px;
-  height: 48px;
   margin: 0 48px 0 0;
 }
 
