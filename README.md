@@ -18,4 +18,10 @@
 
 ---
 
+https://github.com/xShirime/ono-tebe-nado.git
+
+git@github.com:xShirime/ono-tebe-nado.git
+
+https://github.com/xShirime/ono-tebe-nado
+
 © _Барышников Максим для Яндекс.Практикум_
