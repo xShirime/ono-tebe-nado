@@ -1,5 +1,3 @@
-@import url(../fonts/fonts.css);
-
 .page {
   max-width: 1440px;
   display: flex;
@@ -19,7 +17,7 @@
 
 .header__logo-container {
   width: 135px;
-  margin-right: 150px;
+  margin-right: 11%;
 }
 
 .header__logo {
@@ -44,7 +42,7 @@
   margin-right: 32px;
 }
 
-.header__link:first-of-type {
+.link_active {
   list-style: none;
   text-decoration: none;
 }
@@ -70,10 +68,6 @@
 
 .letter-spacing-extended {
   letter-spacing: 60px;
-}
-
-.letter-spacing-extra {
-  letter-spacing: 40px;
 }
 
 .no-letter-spacing {
@@ -233,11 +227,6 @@
   height: 100%;
   padding: 50px 40px;
   color: #fff;
-}
-
-.card_type_film,
-.card_type_book,
-.card_type_picture {
   background-color: #a7a7a7;
   background-repeat: no-repeat;
   background-position: center;
@@ -339,22 +328,16 @@
   font-size: 18px;
 }
 
-.footer__menu-link_active {
-  text-decoration: none;
+.footer__social-link {
+  display: block;
 }
 
-.footer__socials {
+.footer__social-list {
   display: flex;
-  justify-content: space-between;
-  min-width: 240px;
-}
-
-.footer__icon {
-  width: 48px;
-  height: 48px;
-  margin: 0 48px 0 0;
-}
-
-.footer__icon:last-of-type {
-  margin-right: 0;
+  flex-wrap: wrap;
+  justify-self: end;
+  align-items: center;
+  gap: 0px 48px;
+  list-style: none;
+  max-height: 48px;
 }

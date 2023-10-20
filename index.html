@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Оно тебе надо</title>
+  <link rel="stylesheet" href="./fonts/fonts.css">
   <link rel="stylesheet" href="./styles/global.css">
   <link rel="stylesheet" href="./styles/style.css">
 </head>
@@ -12,7 +13,7 @@
 <body class="page">
   <header class="header">
     <nav class="header__links">
-      <a href="#" class="header__link">главная</a>
+      <a href="#" class="header__link link_active">главная</a>
       <a href="#" class="header__link accent">посмотреть лоты</a>
       <a href="#" class="header__link accent">об аукционе</a>
     </nav>
@@ -28,16 +29,13 @@
       <div class="overlay"></div>
       <h1 class="cover__title">
         <span class="aligned-text">
-          о<span class="letter-spacing-extra">но</span>
+          о<span class="letter-spacing-extended">но</span>
         </span>
         <span class="aligned-text_center">
           те<span class="letter-spacing-extended">бе</span>
         </span>
         <span class="aligned-text_right">
-          <span class="letter-spacing-extended">н</span>aд<span
-            class="no-letter-spacing"
-            >о</span
-          >
+          <span class="letter-spacing-extended">н</span>aд<span class="no-letter-spacing">о</span>
         </span>
       </h1>
       <div class="cover__description">
@@ -52,7 +50,7 @@
       <ul class="lots__card-list">
         <li class="lots__card-list-item">
           <a class="card-link" href="#">
-            <article class="card card_type_film">
+            <article class="card">
               <div class="overlay"></div>
               <h3 class="card__title">
                 Фильм режиссёра, который бросил киношколу
@@ -67,7 +65,7 @@
         </li>
         <li class="lots__card-list-item">
           <a class="card-link" href="#">
-            <article class="card card_type_book">
+            <article class="card">
               <div class="overlay"></div>
               <h3 class="card__title">
                 Книга, где описан один скучный день из жизни рекламного агента
@@ -85,7 +83,7 @@
         </li>
         <li class="lots__card-list-item">
           <a class="card-link" href="#">
-            <article class="card card_type_picture">
+            <article class="card">
               <div class="overlay"></div>
               <h3 class="card__title">
                 Картина, которую повторит даже 5-летний сын маминой подруги
@@ -124,23 +122,28 @@
       <p class="info__paragraph">наб. Принсенграхт 263-265, Амстердам</p>
     </div>
     <nav class="footer__menu">
-      <a href="#" class="footer__menu-link footer__menu-link_active">главная</a>
+      <a href="#" class="footer__menu-link link_active">главная</a>
       <a href="#" class="footer__menu-link">посмотреть лоты</a>
       <a href="#" class="footer__menu-link">об аукционе</a>
     </nav>
-    <div class="footer__socials">
-      <a href="" class="footer_icon-link"><img src="./images/yt.svg" alt="" class="footer__icon"></a>
-      <a href="" class="footer_icon-link"><img src="./images/vk.svg" alt="" class="footer__icon"></a>
-      <a href="" class="footer_icon-link"><img src="./images/pinterest.svg" alt="" class="footer__icon"></a>
-    </div>
+    <ul class="footer__social-list">
+      <li class="footer__social-list-item">
+        <a class="footer__social-link" href="#" aria-label="Оно тебе надо на YouTube" target="_blank">
+          <img class="footer__social-icon" src="./images/yt.svg" alt="Иконка YouTube" width="48" height="48" />
+        </a>
+      </li>
+      <li class="footer__social-list-item">
+        <a class="footer__social-link" href="#" aria-label="Оно тебе надо в VK" target="_blank">
+          <img class="footer__social-icon" src="./images/vk.svg" alt="Иконка VK" width="48" height="48" />
+        </a>
+      </li>
+      <li class="footer__social-list-item">
+        <a class="footer__social-link" href="#" aria-label="Оно тебе надо на Pinterest" target="_blank">
+          <img class="footer__social-icon" src="./images/pinterest.svg" alt="Иконка Pinterest" width="48" height="48" />
+        </a>
+      </li>
+    </ul>
   </footer>
 </body>
 
 </html>
-
-
-<!-- Оно
-        <span class="title__middle-word">
-          те<span class="letter-accent">бе</span>
-        </span>
-        <span class="title__bottom-word">н<span class="letter-small-accent">ад</span><span class="zero-accent">о</span></span> -->
