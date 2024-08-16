@@ -52,6 +52,7 @@
 }
 
 .info {
+  font-style: unset;
   width: 240px;
 }
 
@@ -138,14 +139,6 @@
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
-}
-
-.address {
-  max-width: 238px;
-  font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 24.3px;
 }
 
 .bet-button {
